@@ -15,25 +15,25 @@
 > - [x] *Page console log should not have errors*
 ### :woman_technologist: Technology stack:
 <p  align="center">
-<code><img width="5%" title="Java" src="images/java-logo.svg"></code>
-<code><img width="5%" title="Selenide" src="images/selenide-logo.svg"></code>
-<code><img width="5%" title="Selenoid" src="images/selenoid-logo.svg"></code>
-<code><img width="5%" title="Gradle" src="images/gradle-logo.svg "></code>
-<code><img width="5%" title="JUnit5" src="images/junit5-logo.svg"></code>
-<code><img width="5%" title="Allure Report" src="images/allure-Report-logo.svg"></code>
-<code><img width="5%" title="Github" src="images/git-logo.svg"></code>
-<code><img width="5%" title="Jenkins" src="images/jenkins-logo.svg"></code>
+<code><img width="5%" title="Java" src="images/Java.svg"></code>
+<code><img width="5%" title="Selenide" src="images/Selenide.svg"></code>
+<code><img width="5%" title="Selenoid" src="images/Selenoid.svg"></code>
+<code><img width="5%" title="Gradle" src="images/Gradle.svg"></code>
+<code><img width="5%" title="JUnit5" src="images/Junit5.svg"></code>
+<code><img width="5%" title="Allure Report" src="images/Allure_Report.svg"></code>
+<code><img width="5%" title="Github" src="images/GitHub.svg"></code>
+<code><img width="5%" title="Jenkins" src="images/Jenkins.svg"></code>
 <code><img width="5%" title="Telegram" src="images/Telegram.svg"></code>
 </p>
- In this project, autotests are written in <code>Java</code> and using <code>Selenide</code> for UI-tests.
+ In this project, autotests are written in <code>Java</code> and use <code>Selenide</code> for UI-tests.
 >
 > <code>Selenoid</code> launches browsers in containers <code>Docker</code>.
 >
-> <code>Allure Report</code> generating a test run report.
+> <code>Allure Report</code> generates a test run report.
 >
-> For automated build of the project is performed using <code>Gradle</code>.
+> For automated building of the project, <code>Gradle</code> was used.
 >
-> Library for unit testing is used <code>JUnit 5</code>.
+> Library for unit testing uses <code>JUnit 5</code>.
 >
 > <code>Jenkins</code> for runs tests
 >
@@ -56,11 +56,11 @@ test
 -DbrowserSize=${RESOLUTION}
 ```
 :black_medium_small_square:	Build options
-> <code>REMOTE_URL</code> – address of the remote server where the tests will run.
+> <code>REMOTE_URL</code> – address of the remote server the tests will run.
 >
-> <code>BROWSER</code> – browser in which the tests will be run (_default - <code>chrome</code>_).
+> <code>BROWSER</code> – browser will be used to run the tests  (_default - <code>chrome</code>_).
 >
-> <code>BROWSER_VERSION</code> – version of the browser in which the tests will be run (_default - <code>91.0</code>_).
+> <code>BROWSER_VERSION</code> – version of the browser will be used to run the tests (_default - <code>91.0</code>_).
 >
-> <code>BROWSER_SIZE</code> – size of the browser window in which the tests will run (_default - <code>1920x1080</code>_).
+> <code>BROWSER_SIZE</code> – size of the browser window will be used to run the tests (_default - <code>1920x1080</code>_).
 
