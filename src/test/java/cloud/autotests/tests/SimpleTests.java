@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class SimpleTests extends TestBase {
     @Test
-    @Description("Check button")
+    @Description("Check if button 'request a demo' exists")
     @DisplayName("Voiso test 1")
     void checkButtonTest() {
         step("Open voiso.com", () -> {
@@ -36,7 +36,7 @@ public class SimpleTests extends TestBase {
         });
     }
     @Test
-    @Description("Check video exist")
+    @Description("Check if video exists on the main banner")
     @DisplayName("Voiso test 2")
     void checkVideoTest() {
         step("Open voiso.com", () -> {
@@ -49,7 +49,7 @@ public class SimpleTests extends TestBase {
     }
 
     @Test
-    @Description("Check page title")
+    @Description("Check title of the main page")
     @DisplayName("Voiso test 3")
     void titleTest() {
         step("Open url 'https://voiso.com/'", () ->
@@ -64,14 +64,14 @@ public class SimpleTests extends TestBase {
     }
 
     @Test
-    @Description("Menu have blog page")
+    @Description("Check if blog page exists")
     @DisplayName("Voiso test 4")
     void blogPageTest() {
         step("Open url 'https://voiso.com/'", () ->
                 open("https://voiso.com/"));
 
         step("Click blog", () -> {
-            $(".nav__rightlinks").find(byText("Blog")).click();
+            $("#navlinks-slider").$(byText("Blog")).click();
         });
         sleep(5000);
 
