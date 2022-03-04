@@ -1,9 +1,10 @@
 # Project of UI automation testing <a target="_blank" href="https://voiso.com/">voiso.com</a>
 ![](images/voiso.png)
 ### :pencil: Content:
-> :pushpin: Test coverage
+- :pushpin: [Test coverage](#bar_chart:	Test coverage) 
+- :pushpin: [Technology stack](#woman_technologist: Technology stack)
+- :pushpin: [Running tests from terminal](#black_large_square: Running tests from terminal)
 > :pushpin: Technology stack
-> :pushpin:
 > :pushpin:
 > :pushpin:
 > :pushpin:

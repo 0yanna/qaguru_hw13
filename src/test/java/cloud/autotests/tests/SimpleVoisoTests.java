@@ -12,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class SimpleTests extends TestBase {
+public class SimpleVoisoTests extends TestBase {
     @Test
     @Description("Check if button 'request a demo' exists")
     @DisplayName("Voiso test 1")
