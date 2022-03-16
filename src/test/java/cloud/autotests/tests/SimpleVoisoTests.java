@@ -22,17 +22,16 @@ public class SimpleVoisoTests extends TestBase {
         });
 
         step("Сheck button exists", () -> {
-            $(".get-started").should(visible);
+            $(".style_content__fy0dz").should(visible);
         });
 
         step("Сlick button", () -> {
-            $(".links").scrollIntoView(false).click();
+            $(".style_body__rooPX").$(byText("Request a demo")).click();
            // $("a[href=\"/request-a-demo\"]").click();
         });
-        sleep(5000);
 
         step("Сheck text button exists", () -> {
-            $(".form-wrapper").$(byText("Request a demo"));
+            $(".style_h2__RKar3.style_black__sVGMk").shouldHave(text("Request a demo"));
         });
     }
     @Test
@@ -44,7 +43,7 @@ public class SimpleVoisoTests extends TestBase {
         });
 
         step("Сheck video exists", () -> {
-            $(".video").should(exist);
+            $(".style_videoWrapper__p719Y").should(exist);
         });
     }
 
@@ -55,8 +54,8 @@ public class SimpleVoisoTests extends TestBase {
         step("Open url 'https://voiso.com/'", () ->
                 open("https://voiso.com/"));
 
-        step("Page title should have text 'Voiso Call Center Platform | Better call outcomes. Always.'", () -> {
-            String expectedTitle = "Voiso Call Center Platform | Better call outcomes. Always.";
+        step("Page title should have text 'Voiso Call Center Platform'", () -> {
+            String expectedTitle = "Voiso Call Center Platform";
             String actualTitle = title();
 
             assertThat(actualTitle).isEqualTo(expectedTitle);
@@ -71,12 +70,12 @@ public class SimpleVoisoTests extends TestBase {
                 open("https://voiso.com/"));
 
         step("Click blog", () -> {
-            $("#navlinks-slider").$(byText("Blog")).click();
+            $(".menu").$(byText("Pricing")).click();
         });
         sleep(5000);
 
         step("Сheck blog page", () -> {
-            $(".feed ").shouldNotBe(empty);
+            $(".style_secondary____DnE.style_container__7Y17V ").shouldNotBe(empty);
         });
     }
 
