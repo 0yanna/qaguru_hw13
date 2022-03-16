@@ -22,7 +22,7 @@ public class SimpleVoisoTests extends TestBase {
         });
 
         step("Сheck button exists", () -> {
-            $(".style_content__fy0dz").should(visible);
+            $(".style_content__fy0dz").shouldBe(visible);
         });
 
         step("Сlick button", () -> {
