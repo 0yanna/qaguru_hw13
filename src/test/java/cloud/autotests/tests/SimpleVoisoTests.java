@@ -1,7 +1,7 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
-import cloud.autotests.jupiter.BrowserExtension;
+//import cloud.autotests.jupiter.BrowserExtension;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
