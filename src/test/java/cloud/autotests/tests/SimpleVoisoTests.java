@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
-@BrowserExtension
+//@BrowserExtension
 public class SimpleVoisoTests extends TestBase {
     @Test
     @Description("Check if button 'request a demo' exists")
