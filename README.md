@@ -1,13 +1,12 @@
 # Project of UI automation testing <a target="_blank" href="https://voiso.com/">voiso.com</a>
 ![](images/voiso.png)
 ### :pencil: Content:
-- :pushpin: [Test coverage](#bar_chart:	Test coverage) 
-- :pushpin: [Technology stack](#woman_technologist: Technology stack)
-- :pushpin: [Running tests from terminal](#black_large_square: Running tests from terminal)
-> :pushpin: Technology stack
-> :pushpin:
-> :pushpin:
-> :pushpin:
+- :pushpin: [Test coverage](#bar_chart-Test coverage) 
+- :pushpin: [Technology stack](#woman_technologist-Technology stack)
+- :pushpin: [Running tests from terminal](#black_large_square-Running tests from terminal)
+- :pushpin: [Allure report](#-Allure-report)
+- :pushpin: [Telegram report](#-Telegram-report)
+
 ### :bar_chart:	Test coverage:
 > - [x] *Check if button 'request a demo' exists*
 > - [x] *Check if video exists on the main banner*
@@ -65,3 +64,15 @@ test
 >
 > <code>BROWSER_SIZE</code> – size of the browser window will be used to run the tests (_default - <code>1920x1080</code>_).
 
+### <img src="images/Allure_Report.svg" width="25" height="25" /></a> <a target="_blank" href="https://jenkins.autotests.cloud/job/0yanna_hw13/allure/">Allure report</a>
+
+Main window and build history
+![](images/allure report.png)
+
+ Test suite
+![](images/allure_suites.png)
+
+Graphs
+![](images/Graphs.png)
+
+### <img src="images/Telegram.svg" width="25" height="25" /></a> Telegram report
