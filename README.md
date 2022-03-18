@@ -1,9 +1,9 @@
 # Project of UI automation testing <a target="_blank" href="https://voiso.com/">voiso.com</a>
-![](images/voiso.png)
+![](images/voiso_logo.png)
 ### :pencil: Content:
-- :pushpin: [Test coverage](#bar_chart-Test coverage) 
-- :pushpin: [Technology stack](#woman_technologist-Technology stack)
-- :pushpin: [Running tests from terminal](#black_large_square-Running tests from terminal)
+- :pushpin: [Test coverage](#bar_chart-Test-coverage) 
+- :pushpin: [Technology stack](#woman_technologist-Technology-stack)
+- :pushpin: [Running tests from terminal](#black_large_square-Running-tests-from-terminal)
 - :pushpin: [Allure report](#-Allure-report)
 - :pushpin: [Telegram report](#-Telegram-report)
 
@@ -15,17 +15,19 @@
 > - [x] *Page console log should not have errors*
 ### :woman_technologist: Technology stack:
 <p  align="center">
-<code><img width="5%" title="Java" src="images/Java.svg"></code>
-<code><img width="5%" title="Selenide" src="images/Selenide.svg"></code>
-<code><img width="5%" title="Selenoid" src="images/Selenoid.svg"></code>
-<code><img width="5%" title="Gradle" src="images/Gradle.svg"></code>
-<code><img width="5%" title="JUnit5" src="images/Junit5.svg"></code>
-<code><img width="5%" title="Allure Report" src="images/Allure_Report.svg"></code>
-<code><img width="5%" title="Github" src="images/GitHub.svg"></code>
-<code><img width="5%" title="Jenkins" src="images/Jenkins.svg"></code>
-<code><img width="5%" title="Telegram" src="images/Telegram.svg"></code>
+<a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA" title="IntelliJ IDEA"/></a>
+<a href="https://www.java.com/"><img src="images/Java.svg" width="50" height="50"  alt="Java" title="Java"/></a>
+<a href="https://github.com/"><img src="images/Github.svg" width="50" height="50"  alt="Github" title="GitHub"/></a>
+<a href="https://junit.org/junit5/"><img src="images/JUnit5.svg" width="50" height="50"  alt="JUnit 5" title="JUnit5"/></a>
+<a href="https://gradle.org/"><img src="images/Gradle.svg" width="50" height="50"  alt="Gradle" title="Gradle"/></a>
+<a href="https://selenide.org/"><img src="images/Selenide.svg" width="50" height="50"  alt="Selenide" title="Selenide"/></a>
+<a href="https://aerokube.com/selenoid/"><img src="images/Selenoid.svg" width="50" height="50"  alt="Selenoid" title="Selenoid"/></a>
+<a href="https://github.com/allure-framework/allure2"><img src="images/Allure_Report.svg" width="50" height="50"  alt="Allure" title="Allure"/></a>
+<a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins" title="Jenkins"/></a>
+<a href="https://www.jenkins.io/"><img src="images/Telegram.svg" width="50" height="50"  alt="Jenkins" title="Telegram"/></a>
 </p>
- In this project, autotests are written in <code>Java</code> and use <code>Selenide</code> for UI-tests.
+
+> In this project, autotests are written in <code>Java</code> and use <code>Selenide</code> for UI-tests.
 >
 > <code>Selenoid</code> launches browsers in containers <code>Docker</code>.
 >
@@ -56,7 +58,10 @@ test
 -DbrowserSize=${RESOLUTION}
 ```
 :black_medium_small_square:	Build options
-> <code>REMOTE_URL</code> – address of the remote server the tests will run.
+REPOSITORY
+> <code>REPOSITORY</code> – tests are run from it.
+> 
+> <code>REMOTE_DRIVER_URL</code> – address of the remote server the tests will run.
 >
 > <code>BROWSER</code> – browser will be used to run the tests  (_default - <code>chrome</code>_).
 >
@@ -76,3 +81,4 @@ Graphs
 ![](images/Graphs.png)
 
 ### <img src="images/Telegram.svg" width="25" height="25" /></a> Telegram report
+![](images/telegram_report.png)
