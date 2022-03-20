@@ -15,14 +15,18 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 @ExtendWith({AllureJunit5.class})
 public class TestBase {
+    String remoteBrowser = System.getProperty("remoteBrowser", "selenoid.autotests.cloud/wd/hub");
+    String remoteBrowserUser = System.getProperty("remoteBrowserUser", "user1");
+    String remoteBrowserPassword = System.getProperty("remoteBrowserPassword", "1234");
+
     @BeforeAll
-    static void setUp() {
+    void setUp() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-
+       //ниже вместо Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.remote = "https://" + remoteBrowserUser + ":" + remoteBrowserPassword + "@" + remoteBrowser;
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
