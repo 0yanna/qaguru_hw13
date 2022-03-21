@@ -83,7 +83,7 @@ Graphs
 ### <img src="images/Telegram.svg" width="25" height="25" /></a> Telegram report
 ![](images/telegram_report.png)
 
-###Test execution example
+### Test execution example
 <p align="center">
   <img title="Selenoid Video" src="images/24838d6398f7dd9febb7d1d5da55d51c.gif">
 </p>
