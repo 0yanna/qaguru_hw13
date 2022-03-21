@@ -84,4 +84,6 @@ Graphs
 ![](images/telegram_report.png)
 
 ###Test execution example
-![](images/24838d6398f7dd9febb7d1d5da55d51c.mp4)
+<p align="center">
+  <img title="Selenoid Video" src="images/selenide.gif">
+</p>
