@@ -85,5 +85,5 @@ Graphs
 
 ###Test execution example
 <p align="center">
-  <img title="Selenoid Video" src="images/selenide.gif">
+  <img title="Selenoid Video" src="images/24838d6398f7dd9febb7d1d5da55d51c.gif">
 </p>
